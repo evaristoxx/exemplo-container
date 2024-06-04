@@ -2,7 +2,7 @@ services:
   db:
     image: mysql:5.7
     container_name: banco
-    restart: always
+    restart: aways
     environment:
       MYSQL_DATABASE: meu_banco
       MYSQL_USER: appuser
